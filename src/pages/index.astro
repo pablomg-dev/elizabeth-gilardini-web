@@ -1,0 +1,472 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AnimatedSection from "../components/AnimatedSection.tsx";
+---
+
+<Layout
+    title="Elizabeth Gilardini - Coaching y Desarrollo Personal"
+    description="Descubre el poder del coaching para transformar tu vida. Elizabeth Gilardini te acompaña en tu camino de autoconocimiento y crecimiento personal."
+>
+    <section
+        class="h-screen flex items-center justify-center bg-[url(/img1.jpg)] bg-cover bg-center relative"
+    >
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="text-center w-full px-4 md:px-4 relative z-10">
+            <AnimatedSection client:load direction="up">
+                <h1
+                    class="text-2xl md:text-3xl lg:text-5xl text-white font-limelight font-bold drop-shadow-lg"
+                >
+                    "El presente sólo puede fluir cuando el pasado está en paz"
+                </h1>
+            </AnimatedSection>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <AnimatedSection client:load direction="up">
+                <h2 class="text-3xl font-bold text-center mb-12 text-black">
+                    Sobre Mí
+                </h2>
+            </AnimatedSection>
+
+            <div class="max-w-6xl mx-auto">
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+                >
+                    <AnimatedSection client:load direction="left" delay={0}>
+                        <div class="relative lg:pr-8">
+                            <img
+                                src="/img2.png"
+                                alt="Elizabeth Gilardini"
+                                class="w-full h-100 lg:h-125 rounded-lg shadow-lg object-cover"
+                                loading="lazy"
+                            />
+                        </div>
+                    </AnimatedSection>
+
+                    <div class="text-lg text-gray-700 font-inter">
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Mi nombre es Elizabeth Silvana Gilardini.
+                                Durante mucho tiempo sentí que cargaba un peso
+                                invisible, comprendí el para qué de mi
+                                sobrepeso, la repetición de patrones vinculares,
+                                la falta de amor propio y desvalorización.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Luego de la ruptura de una relación amorosa
+                                comenzó mi despertar espiritual y un camino de
+                                búsqueda interna que me llevó a tomar la
+                                formación como Masajista, en esos tiempos había
+                                "algo" en mi interior que me atraía.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Comencé ese camino con la intención de encontrar
+                                respuestas a incógnitas existenciales y lo que
+                                me encontré fueron muchos aprendizajes, dolor en
+                                el cuerpo y un profundo "vacío". Si bien ejercí
+                                por más de 4 años, lo que me pesaba y me
+                                limitaba aún estaba ahí, adentro.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Crecí en un entorno donde lo "no dicho", los
+                                silencios, la desconexión de las emociones era
+                                lo que pesaba más que las palabras. La violencia
+                                física, verbal y psicológica también estuvieron
+                                presentes.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Repetía patrones que no entendía, entraba y
+                                salía de relaciones que me provocaban reacciones
+                                que no parecían ser mías, y aunque intentaba
+                                avanzar y hacer algo diferente, siempre había
+                                algo que me frenaba, como si una parte mía
+                                estuviera atada al pasado.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Al cabo de atravesar varios procesos de
+                                angustia, enojo y de sentirme desconcertada,
+                                llegó a mí la Decodificación Bioemocional como
+                                un medio para poder comprender qué me estaba
+                                pasando, y aquí todo comenzó a tener sentido.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                Comprendí que muchas de las heridas emocionales
+                                no comenzaron con nosotros, sino con quienes
+                                vinieron antes, nuestro clan familiar, y que el
+                                origen de mis síntomas se debía a shocks
+                                emocionales no gestionados a tiempo.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p class="mb-6">
+                                A pesar de toda la información que se iba
+                                develando e integrando en mí, la repetición de
+                                patrones en las relaciones y mi relación con el
+                                dinero seguían bloqueando mi avance, lo que me
+                                llevó a ahondar más en mis orígenes, mi historia
+                                transgeneracional y a través de las
+                                Constelaciones Familiares.
+                            </p>
+                        </AnimatedSection>
+                        <AnimatedSection client:load direction="up" delay={0.1}>
+                            <p>
+                                🌟¡Bienvenido a este viaje de transformación!🌟
+                            </p>
+                        </AnimatedSection>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="h-96 flex items-center justify-center bg-[url(/img3.png)] bg-cover bg-center relative"
+    >
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="text-center w-full px-4 md:px-4 relative z-10">
+            <AnimatedSection client:load direction="up">
+                <p
+                    class="text-xl md:text-2xl lg:text-4xl text-white font-playfair font-bold drop-shadow-lg"
+                >
+                    "Escuchar tu síntoma y mirar tu historia puede ser el
+                    comienzo de una nueva manera de habitarte"
+                </p>
+            </AnimatedSection>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <AnimatedSection client:load direction="up">
+                <h2 class="text-3xl font-bold text-center mb-12 text-black">
+                    Servicios
+                </h2>
+            </AnimatedSection>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <AnimatedSection client:load direction="up" delay={0.3}>
+                        <div class="p-6 rounded-lg">
+                            <h3 class="text-[#9795cf] text-xl font-semibold mb-4">
+                                Constelaciones Familiares
+                            </h3>
+                            <p class="text-black font-inter text-sm">
+                                En nuestro inconsciente hay memorias, lealtades e
+                                historias que generan patrones de conducta y
+                                síntomas en nuestra vida cotidiana. Las
+                                Constelaciones Familiares nos permiten conectar con
+                                el campo de información del sistema familiar para
+                                observar, reconocer, aceptar y ordenarnos, dando
+                                lugar a la liberación y sanación.
+                            </p>
+                            <p class="text-black font-inter text-sm mt-3">
+                                <strong>¿Qué se puede constelar?</strong><br />
+                                Conflictos vinculares, enfermedades, sobrepeso, adicciones,
+                                abuso, emociones, depresión, infertilidad, dificultades
+                                para concretar metas, problemas con límites, autoridad,
+                                herencias, dinero, laboral y más.
+                            </p>
+                            <p class="text-black font-inter text-sm mt-3">
+                                🔸 Sesiones individuales online y presenciales<br />
+                                🔸 Duración: 60' a 1:30hs
+                            </p>
+                        </div>
+                    </AnimatedSection>
+                    <AnimatedSection client:load direction="up" delay={0.5}>
+                        <div class="bg-[#9795cf] p-6 rounded-lg mt-6">
+                            <p class="text-white font-inter text-sm mb-4">
+                                <strong
+                                    >¿Para qué puede ayudarte las Constelaciones
+                                    Familiares?</strong
+                                >
+                            </p>
+                            <ul
+                                class="text-white font-inter text-sm ml-4 space-y-2"
+                            >
+                                <li>
+                                    • <strong>Problemas de Pareja:</strong> Entender lealtades
+                                    invisibles o dinámicas repetidas que impiden la comunicación
+                                    y el amor, como la sombra de una relación anterior
+                                    de un familiar.
+                                </li>
+                                <li>
+                                    • <strong>Conflictos Familiares:</strong> Resolver
+                                    tensiones con padres, hermanos o hijos al reconocer
+                                    el lugar que cada uno ocupa y honrar a los excluidos
+                                    o silenciados de la familia.
+                                </li>
+                                <li>
+                                    • <strong>Duelos no Resueltos:</strong> Sanar pérdidas
+                                    (abortos, muertes prematuras) que afectan a generaciones,
+                                    permitiendo que los miembros de la familia encuentren
+                                    su lugar y paz.
+                                </li>
+                                <li>
+                                    • <strong>Síntomas y Enfermedades:</strong> Comprender
+                                    si una enfermedad física o mental tiene una raíz en
+                                    un evento traumático familiar no resuelto (violencia,
+                                    abusos).
+                                </li>
+                                <li>
+                                    • <strong>Patrones Repetitivos:</strong> Romper ciclos
+                                    de fracaso laboral, dificultades económicas o relaciones
+                                    tóxicas que se repiten en tu vida y la de tus ancestros.
+                                </li>
+                                <li>
+                                    • <strong>Adicciones y Traumas:</strong> Abordar adicciones
+                                    o traumas infantiles al visibilizar la carga emocional
+                                    que se lleva de generaciones anteriores.
+                                </li>
+                                <li>
+                                    • Restablecer el orden jerárquico dentro del
+                                    sistema familiar y ocupar tu lugar correcto
+                                    dentro de él.
+                                </li>
+                            </ul>
+                        </div>
+                    </AnimatedSection>
+                </div>
+
+                <div>
+                    <AnimatedSection client:load direction="up" delay={0.4}>
+                        <div class="p-6 rounded-lg">
+                            <h3 class="text-[#9795cf] text-xl font-semibold mb-4">
+                                Biodescodificación Emocional
+                            </h3>
+                            <p class="text-black font-inter text-sm">
+                                La Decodificación Bioemocional es una disciplina que
+                                nos ayuda a entender que todo síntoma que aparece en
+                                nuestro cuerpo viene a mostrar que detrás de esa
+                                señal hay una historia no resuelta que dejó por
+                                resultado emociones escondidas y bloqueadas que se
+                                manifiestan de esa forma.
+                            </p>
+                            <p class="text-black font-inter text-sm mt-3">
+                                Desde nuestra mirada entendemos que todo síntoma es
+                                la puerta de entrada a nuestro ser más profundo y
+                                que seguro esa historia bloqueada esté relacionada
+                                con aquello que hemos venido a transitar y a
+                                aprender en esta vida. El objetivo de este proceso
+                                de transformación es que la persona comprenda qué es
+                                lo que le está pasando, qué es lo que su síntoma le
+                                viene a decir y que de esta manera pueda abrir el
+                                camino a sanar esas emociones escondidas para tener
+                                una vida en plenitud.
+                            </p>
+                            <p class="text-black font-inter text-sm mt-3">
+                                En la sesión iremos al encuentro de esos programas
+                                inconscientes que están relacionados con el síntoma
+                                a través de "recursos" y técnicas, encontraremos ese
+                                "resentir" (volver a sentir) para que se desbloqueen
+                                emociones y que el consultante tome "consciencia",
+                                se de cuenta y así pueda encontrar su coherencia,
+                                transformarse.
+                            </p>
+                        </div>
+                    </AnimatedSection>
+                    <AnimatedSection client:load direction="up" delay={0.6}>
+                        <div class="bg-[#9795cf] p-6 rounded-lg mt-6">
+                            <p class="text-white font-inter text-sm mb-4">
+                                <strong
+                                    >¿Para qué puede ayudarte la Decodificación
+                                    Bioemocional?</strong
+                                >
+                            </p>
+                            <ul
+                                class="text-white font-inter text-sm ml-4 space-y-1"
+                            >
+                                <li>
+                                    • Comprender el origen emocional de síntomas
+                                    físicos o malestares
+                                </li>
+                                <li>
+                                    • Identificar patrones repetitivos en tu vida
+                                </li>
+                                <li>• Liberar cargas emocionales heredadas</li>
+                                <li>
+                                    • Trabajar conflictos emocionales actuales o del
+                                    pasado
+                                </li>
+                                <li>
+                                    • Conectar con tu historia desde una mirada más
+                                    amorosa
+                                </li>
+                            </ul>
+                        </div>
+                    </AnimatedSection>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="h-96 flex items-center justify-center bg-[url(/img4.jpg)] bg-cover bg-center relative">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="text-center w-full px-4 md:px-4 relative z-10">
+            <AnimatedSection client:load direction="up">
+                <p class="text-xl md:text-2xl lg:text-4xl text-white font-playfair font-bold drop-shadow-lg">
+                    "No hay toma de consciencia sin dolor" C.G.Jung
+                </p>
+            </AnimatedSection>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <AnimatedSection client:load direction="up">
+                <h2 class="text-2xl font-bold text-center mb-8 text-black">
+                    Llena el formulario para contactarme
+                </h2>
+            </AnimatedSection>
+            <div class="max-w-lg mx-auto">
+                <form
+                    name="contacto"
+                    method="POST"
+                    data-netlify="true"
+                    class="bg-white p-6 rounded-lg shadow-lg border border-[#64638f]"
+                >
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label
+                                for="nombre"
+                                class="block text-sm font-medium text-gray-700 mb-1"
+                            >
+                                Nombre
+                            </label>
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                required
+                                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#64638f] focus:border-[#64638f] outline-none transition-all duration-300"
+                                placeholder="Tu nombre"
+                            />
+                        </div>
+                        <div>
+                            <label
+                                for="email"
+                                class="block text-sm font-medium text-gray-700 mb-1"
+                            >
+                                Email
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#64638f] focus:border-[#64638f] outline-none transition-all duration-300"
+                                placeholder="tu@email.com"
+                            />
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label
+                            for="telefono"
+                            class="block text-sm font-medium text-gray-700 mb-1"
+                        >
+                            Teléfono
+                        </label>
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#64638f] focus:border-[#64638f] outline-none transition-all duration-300"
+                            placeholder="Tu teléfono"
+                        />
+                    </div>
+                    <div class="mb-4">
+                        <label
+                            for="mensaje"
+                            class="block text-sm font-medium text-gray-700 mb-1"
+                        >
+                            Mensaje
+                        </label>
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            required
+                            rows="4"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#64638f] focus:border-[#64638f] outline-none transition-all duration-300 resize-none"
+                            placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button
+                        type="submit"
+                        class="w-full bg-[#64638f] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#54536f] transition-all duration-300 transform hover:scale-105 cursor-pointer"
+                    >
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="prensa" class="py-20 bg-[#64638f]">
+        <div class="container mx-auto px-4">
+            <AnimatedSection client:load direction="up">
+                <h2 class="text-3xl font-bold text-center mb-12 text-white">
+                    Mi Instagram y Email
+                </h2>
+            </AnimatedSection>
+            <div class="max-w-md mx-auto text-center">
+                <AnimatedSection
+                    client:load
+                    direction="up"
+                    delay={0.1}
+                    className="mb-4"
+                >
+                    <a
+                        href="https://www.instagram.com/constelaciones.eg/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visitar perfil de Instagram"
+                        class="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 border border-gray-100"
+                    >
+                        <div class="flex items-center gap-3 mb-2">
+                            <i
+                                class="fab fa-instagram text-2xl text-pink-500"
+                                aria-hidden="true"></i>
+                            <h3 class="text-xl font-semibold text-gray-800">
+                                Instagram
+                            </h3>
+                        </div>
+                        <p class="text-gray-600 font-medium">
+                            @constelaciones.eg
+                        </p>
+                    </a>
+                </AnimatedSection>
+
+                <AnimatedSection client:load direction="up" delay={0.3}>
+                    <a
+                        href="mailto:gilardinielizabeth@gmail.com"
+                        class="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 border border-gray-100"
+                    >
+                        <div class="flex items-center gap-3 mb-2">
+                            <i
+                                class="fas fa-envelope text-2xl text-[#64638f]"
+                                aria-hidden="true"></i>
+                            <h3 class="text-xl font-semibold text-gray-800">
+                                Email
+                            </h3>
+                        </div>
+                        <p class="text-gray-600 font-medium">
+                            gilardinielizabeth@gmail.com
+                        </p>
+                    </a>
+                </AnimatedSection>
+            </div>
+        </div>
+    </section>
+</Layout>
